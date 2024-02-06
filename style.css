@@ -1,0 +1,58 @@
+h1 {
+  color: rgb(139, 30, 143);
+  font-family: fantasy;
+}
+
+h3 {
+  color: rgb(3, 17, 120);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(174, 209, 237);
+}
+
+ul {
+  color: rgb(139, 30, 143);
+  list-style-type: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+img {
+  border: 15px solid rgb(100, 17, 131);
+  border-radius: 50%;
+}
+
+.centered {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .centered {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+@media (max-width: 720px) {
+  .centered {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+
+@media (max-width: 540px) {
+  .centered {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+}
