@@ -1,58 +1,63 @@
-h1 {
-  background-color: rgb(0, 0, 0);
-  color: rgb(59, 156, 230);
-  font-family: fantasy;
-  border-radius: 15%;
-  padding: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  border: 15px solid rgb(100, 17, 131);
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-h3 {
-  color: rgb(3, 17, 120);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
-  background-color: rgb(174, 209, 237);
-  background-image: url("https://th.bing.com/th/id/R.b0c3fc9b3392966447dc10a6a20817d6?rik=QVols61exwSxrg&riu=http%3a%2f%2flam-programming.weebly.com%2fuploads%2f2%2f3%2f3%2f2%2f23323570%2fpublished%2fprogrammer.jpg%3f1573759220&ehk=%2bbGFQMSYqa79D4dfLz2e4O6YokzDG6Ea3pZwd43pN9w%3d&risl=&pid=ImgRaw&r=0");
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c0b2be;
 }
 
-p {
-  margin-bottom: 40px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
 }
 
-ul {
-  color: rgb(139, 30, 143);
-  list-style-type: none;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  margin-bottom: 40px;
+.card {
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+  margin: 12px auto;
+  border-radius: 8px;
+  background-color: #cce6ff;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
 }
 
 img {
-  border: 15px solid rgb(100, 17, 131);
+  width: 200px;
+  height: 300px;
   border-radius: 50%;
 }
 
-.centered {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 20px;
+.list-inline {
+  list-style: none;
+}
 
-  text-align: center;
-  background-color: rgb(74, 186, 186);
-  border: 15px solid rgb(100, 17, 131);
-  border-radius: 20%;
+.list-inline > li {
+  display: inline-block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-color {
+  background-color: #c0b2be;
+  color: #0f2f40;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-size: 30px;
 }
 
 @media (max-width: 960px) {
