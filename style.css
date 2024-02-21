@@ -62,11 +62,39 @@ p {
   align-items: center;
 }
 
-img {
+.card-middle>img {
   width: 200px;
   height: 300px;
   border-radius: 50%;
   padding: 40px 100px;
+}
+
+.showcase-link {
+  width: 100%;
+  height: 100%;
+}
+
+.showcase-image {
+  width: 100%;
+  height: 100%;
+}
+
+.showcase-container {
+  display: grid;
+  grid-row: auto;
+}
+
+.showcase {
+  width: 100px;
+  height: 80px;
+  margin: 10px 10px;
+}
+
+.showcase>p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #1EDD88;
 }
 
 img:hover {
@@ -202,7 +230,7 @@ img:hover {
     width: 200px;
   }
 
-  img {
+  .card-middle>img {
     width: 100px;
     height: 150px;
     border-radius: 50%;
@@ -258,33 +286,10 @@ img:hover {
     width: 200px;
   }
 
-  img {
+  .card-middle>img {
     width: 100px;
     height: 150px;
     border-radius: 50%;
     padding: 20px 50px;
   }
 }
-/* @media (max-width: 960px) {
-  .centered {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-}
-
-@media (max-width: 720px) {
-  .centered {
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-  }
-}
-
-@media (max-width: 540px) {
-  .centered {
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-  }
-}*/
